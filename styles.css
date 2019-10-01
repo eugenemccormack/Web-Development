@@ -1,0 +1,166 @@
+/* Created by: Eugene McCormack, Student number: C17745919 */
+
+body.banner {
+
+    background-image: url('../Graphics/moviecollage.jpg');      
+    background-repeat: no-repeat;	
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    height: 80%;
+}
+
+body {
+    
+    font: 13pt Arial, Helvetica, sans-serif;	
+    color: black; 
+}
+
+body.pages {
+    
+     background-image: url('../Graphics/moviecollage5.jpg');
+     background-position: center;
+     background-size: cover;
+     width: 99%;
+     height: 99%;
+}
+     
+body.menubar {     
+
+   background-image: url('../Graphics/moviecollage.jpg');      
+   background-repeat: no-repeat;	
+   background-position: center;
+   background-size: cover;
+   width: 92%;
+   height: 95%; 
+   border: 0px solid red;
+   border-radius: 8px;
+}
+
+table.menu {
+    		
+   border: 0px;
+   height: 100%;
+}
+
+table.menu tr, .menu td {
+
+   border: 2px solid red;
+   border-radius: 8px;   
+   padding: 6px;
+   font: 13pt Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   text-align: center;
+   background-color: rgba(255, 255, 255, 0.69);
+}
+
+	
+a {
+ 
+   color: rgba(0, 5, 163, 0.84);
+}
+
+table.chart tr.top, table.chart tr.top td {
+
+   background-color: rgba(219, 164, 0, 1);
+   color: black;
+}
+  
+table.chart, table.chart tr, table.chart td, table.chart th {
+
+   background-color: rgba(255, 255, 255, 0.16);
+   padding: 8px;
+   border: 2px solid red;
+   border-radius: 8px;
+   border-spacing: 1px;
+   text-align: center;
+   margin-left:auto; 
+   margin-right:auto;
+}
+  
+table.heading, table.heading tr, table.heading td, table.heading th {
+
+   font: 18pt Arial, Helvetica, sans-serif;
+   color: white;
+   font-weight: bold;
+   background-color: red;
+   padding: 0px;
+   border: 1px solid black;
+   border-radius: 8px;
+   border-spacing: 0px;
+   text-align: center;
+   margin-left:auto; 
+   margin-right:auto;
+}
+
+table.poster {
+    
+    font: 13pt Arial, Helvetica, sans-serif;
+    border: 0px;
+    float: left;
+    margin: 20px;
+    width: 15%;
+
+}
+
+table.poster2 {
+    
+    font: 13pt Arial, Helvetica, sans-serif;
+    border: 0px;
+    float: right;
+    margin: 20px;
+    width: 15%;
+
+}
+
+table.movie, table.movie tr, table.movie td, table.movie th {
+
+   font: 16pt Arial, Helvetica, sans-serif;
+   color: white;
+   font-weight: bold;
+   background-color: black;
+   padding: 0px;
+   border: 1px solid red;
+   border-radius: 8px;
+   border-spacing: 0px;
+   text-align: center;
+   margin-left:auto; 
+   margin-right:auto;
+}
+
+table.photos, table.photos tr, table.photos td, table.photos th {
+
+   font: 13pt Arial, Helvetica, sans-serif;
+   border-spacing: 18px;
+   text-align: center;
+   margin-left:auto; 
+   margin-right:auto;
+}
+
+tr.cast {
+
+        text-align: center;
+	background-color: gold;
+	font-weight: 200;
+}
+
+table.awards, table.awards tr, table.awards td, table.awards th {
+
+   font: 13pt Arial, Helvetica, sans-serif;
+   background-color: rgba(255, 255, 255, 0.16);
+   padding: 0px;
+   border: 1px solid black;
+   border-radius: 1px;
+   border-spacing: 0px;
+   
+}
+
+table.awards tr.top, table.awards tr.top td {
+
+   border-radius: 0px;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+

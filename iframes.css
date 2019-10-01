@@ -1,0 +1,39 @@
+/* Created by: Eugene McCormack, Student number: C17745919 */
+
+body {
+
+	margin: 0;
+	padding: 0;
+	padding-left: 25%;
+}
+
+#left {  
+
+	position: absolute;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 25%;
+	border: 0;
+}
+
+#banner {
+	
+	position: relative;
+	top: 0;
+	left: 0;
+	border: 0;
+	height: 135px;
+	width: 100%;
+}
+	
+#main {
+	
+	position: relative;
+	top: 0;
+	left: 0;
+	border: 0;
+	height: 100%;
+	width: 100%;
+}
